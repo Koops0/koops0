@@ -1,4 +1,7 @@
-## Welcome to my profile!
+<div align="center">
+  <h2>🔥 Welcome to my GitHub!🔥 </h2>
+</div>
+
 ```yaml
 #include <iostream>
 #include <string>
@@ -42,7 +45,7 @@ public:
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/salesp07/salesp07/output/github-contribution-grid-snake.svg" />
+  ![Snake eating commits](https://github.com/koops0/koops0/blob/output/github-contribution-grid-snake.svg)
   
   <br/><br/><br/>
 </div>
