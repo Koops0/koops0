@@ -5,8 +5,6 @@
 #include <vector>
 #include <map>
 
-using namespace std;
-
 class Profile {
 public:
     string name = "Kershan Arulneswaran";
@@ -25,10 +23,12 @@ public:
     string university = "Ontario Tech University";
     string degree = "B.S. in Computer Science, Minor in Mathematics";
     string graduation = "April 2026";
-    vector<string> potential_roles = {"Software Engineer", "Machine Learning Engineer", "Computer Vision Engineer", 
-                                      "Research Assistant", "Augmented Reality Developer", "Data Scientist"};
     vector<string> courses = {"Data Structures and Algorithms", "Scientific Data Analysis", "Software Systems Dev. and Integ.",
                               "Software Design and Analysis", "Computer Graphics and Visualization"};
+
+    vector<string> potential_roles = {"Software Engineer", "Machine Learning Engineer", "Computer Vision Engineer", 
+                                      "Research Assistant", "Augmented Reality Developer", "Data Scientist"};
+
     map<string, string> contact_info = {{"email", "kershan.arulneswaran@gmail.com"},
                                         {"uni_email", "kershan.arulneswaran@ontariotechu.net"},
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
@@ -36,54 +36,7 @@ public:
 
     string experience = "Programming Team Member at OTU Robotics and Freelance Computer Science Mentor";
     string projects = "UNANNOUNCED CV PROJECT, Aero Copilot, GPSXE, King's Battle (will be posted later), Talkhub, Ri3D 2024";
-
-    // prints out profile
-    void display_profile() {
-    cout << "GitHub Profile:" << endl;
-    cout << "Name: " << name << endl;
-    cout << "Username: " << username << endl;
-    cout << "Location: " << location << endl;
-    cout << "Pronouns: " << pronouns << endl;
-    cout << "Interests: ";
-    print_vector(interests);
-    cout << "Programming Languages: ";
-    print_vector(programming_languages);
-    cout << "Tools: ";
-    print_vector(tools);
-    cout << "Currently Learning: ";
-    print_vector(currently_learning);
-    cout << "Other Verbal Languages: ";
-    print_vector(other_verbal_languages);
-    cout << "University: " << university << endl;
-    cout << "Degree: " << degree << endl;
-    cout << "Graduation: " << graduation << endl;
-    cout << "Potential Roles: ";
-    print_vector(potential_roles);
-    cout << "Courses: ";
-    print_vector(courses);
-    cout << "Contact Info:" << endl;
-    for (auto it = contact_info.begin(); it != contact_info.end(); ++it)
-        cout << it->first << ": " << it->second << endl;
-    cout << "Experience: " << experience << endl;
-    cout << "Projects: " << projects << endl;
-    }
-
-    void print_vector(const vector<string>& vec) {
-        for (size_t i = 0; i < vec.size(); ++i) {
-            cout << vec[i];
-            if (i != vec.size() - 1)
-                cout << ", ";
-        }
-        cout << endl;
-    }
 };
-
-int main() {
-    Profile my_profile;
-    my_profile.display_profile();
-
-    return 0;
-}
 ```
 
 <div align="center">
