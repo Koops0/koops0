@@ -43,25 +43,13 @@ public:
 ```
 
 <div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
+  <h2>🐍⚡ My Contributions and Stats so far ⚡🐍</h2>
   
   ![Snake animation](https://github.com/Koops0/koops0/blob/output/github-contribution-grid-snake.svg)
-</div>
 
-<hr/>
-
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
+  <div align=center>
   
   [![GitHub Streak](https://streak-stats.demolab.com?user=Koops0&theme=noctis-minimus&border_radius=8&date_format=%5BY.%5Dn.j&fire=EB0000)](https://git.io/streak-stats) 
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Koops0&theme=dark&layout=compact)
 </div>
-
-<br/><br/>
-
-<hr/>
-
-<br/>
-
-<br/>
+</div>
