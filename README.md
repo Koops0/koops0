@@ -19,8 +19,10 @@ public:
     string pronouns = "he/him";
 
     vector<string> interests = {"Programming", "Machine Learning", "Open Source", "Computer Vision", "Robotics", "NLP"};
-    vector<string> programming_languages = {"Python", "C++", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS", "Ruby", "Rust"};
-    vector<string> tools = {"Linux", "Git", "Netlify", "VSCode", "Amazon Web Services", "OpenGL", "SQL", "React", "Node.js", "Next.js", "Flask", "WordPress"};
+    vector<string> programming_languages = {"Python", "C++", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS", "Ruby",
+                                             "Rust"};
+    vector<string> tools = {"Linux", "Git", "Netlify", "VSCode", "Amazon Web Services", "OpenGL", "SQL", "React", "Node.js",
+                            "Next.js", "Flask", "WordPress"};
     vector<string> currently_learning = {"Nvidia Omniverse", "OpenCV", "Tensorflow", "MongoDB", "Flutter"}
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
