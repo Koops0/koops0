@@ -1,8 +1,4 @@
-<div style="text-align: center;">
-    <img src="https://capsule-render.vercel.app/api?type=venom&color=auto&height=200&section=header&text=Welcome!&fontSize=90" />
-</div>
-
-## A bit about me...
+## Welcome to my profile!
 ```yaml
 #include <iostream>
 #include <string>
@@ -87,7 +83,6 @@ int main() {
     my_profile.display_profile();
 
     return 0;
-}
 }
 ```
 
