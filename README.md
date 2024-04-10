@@ -38,7 +38,7 @@ public:
                                         {"instagram", "koops_0"}};
 
     string experience = "Programming Team Member at OTU Robotics and Freelance Computer Science Mentor";
-    string projects = "UNANNOUNCED CV PROJECT, Aero Copilot, GPSXE, King's Battle (will be posted later), Talkhub, Ri3D 2024";
+    string projects = "TekkenAI, Aero Copilot, GPSXE, King's Battle (will be posted later), Talkhub, Ri3D 2024";
 };
 ```
 
