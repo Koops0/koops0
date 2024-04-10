@@ -23,7 +23,7 @@ public:
                                              "Rust"};
     vector<string> tools = {"Linux", "Git", "Netlify", "VSCode", "Amazon Web Services", "OpenGL", "SQL", "React", "Node.js",
                             "Next.js", "Flask", "WordPress"};
-    vector<string> currently_learning = {"Nvidia Omniverse", "OpenCV", "Tensorflow", "MongoDB", "Flutter"}
+    vector<string> currently_learning = {"Nvidia Omniverse", "OpenCV", "Tensorflow", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
     string university = "Ontario Tech University";
@@ -34,7 +34,7 @@ public:
     vector<string> courses = {"Data Structures and Algorithms", "Scientific Data Analysis", "Software Systems Dev. and Integ.",
                               "Software Design and Analysis", "Computer Graphics and Visualization"};
     map<string, string> contact_info = {{"email", "kershan.arulneswaran@gmail.com"},
-                                        {"uniemail", "kershan.arulneswaran@ontariotechu.net"},
+                                        {"uni_email", "kershan.arulneswaran@ontariotechu.net"},
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
@@ -43,47 +43,42 @@ public:
 
     // prints out profile
     void display_profile() {
-        cout << "GitHub Profile:" << endl;
-        cout << "Name: " << name << endl;
-        cout << "Username: " << username << endl;
-        cout << "Location: " << location << endl;
-        cout << "Pronouns: " << pronouns << endl;
-        cout << "Interests: ";
-        for (const auto& interest : interests)
-            cout << interest << ", ";
+    cout << "GitHub Profile:" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Username: " << username << endl;
+    cout << "Location: " << location << endl;
+    cout << "Pronouns: " << pronouns << endl;
+    cout << "Interests: ";
+    print_vector(interests);
+    cout << "Programming Languages: ";
+    print_vector(programming_languages);
+    cout << "Tools: ";
+    print_vector(tools);
+    cout << "Currently Learning: ";
+    print_vector(currently_learning);
+    cout << "Other Verbal Languages: ";
+    print_vector(other_verbal_languages);
+    cout << "University: " << university << endl;
+    cout << "Degree: " << degree << endl;
+    cout << "Graduation: " << graduation << endl;
+    cout << "Potential Roles: ";
+    print_vector(potential_roles);
+    cout << "Courses: ";
+    print_vector(courses);
+    cout << "Contact Info:" << endl;
+    for (auto it = contact_info.begin(); it != contact_info.end(); ++it)
+        cout << it->first << ": " << it->second << endl;
+    cout << "Experience: " << experience << endl;
+    cout << "Projects: " << projects << endl;
+    }
+
+    void print_vector(const vector<string>& vec) {
+        for (size_t i = 0; i < vec.size(); ++i) {
+            cout << vec[i];
+            if (i != vec.size() - 1)
+                cout << ", ";
+        }
         cout << endl;
-        cout << "Programming Languages: ";
-        for (const auto& language : programming_languages)
-            cout << language << ", ";
-        cout << endl;
-        cout << "Tools: ";
-        for (const auto& tool : tools)
-            cout << tool << ", ";
-        cout << endl;
-        cout << "Currently Learning: ";
-        for (const auto& learn : currently_learning)
-            cout << learn << ", ";
-        cout << endl;
-        cout << "Other Verbal Languages: ";
-        for (const auto& language : other_verbal_languages)
-            cout << language << ", ";
-        cout << endl;
-        cout << "University: " << university << endl;
-        cout << "Degree: " << degree << endl;
-        cout << "Graduation: " << graduation << endl;
-        cout << "Potential Roles: ";
-        for (const auto& role : potential_roles)
-            cout << role << ", ";
-        cout << endl;
-        cout << "Courses: ";
-        for (const auto& course : courses)
-            cout << course << ", ";
-        cout << endl;
-        cout << "Contact Info:" << endl;
-        for (const auto& [key, value] : contact_info)
-            cout << key << ": " << value << endl;
-        cout << "Experience: " << experience << endl;
-        cout << "Projects: " << projects << endl;
     }
 };
 
@@ -92,6 +87,7 @@ int main() {
     my_profile.display_profile();
 
     return 0;
+}
 }
 ```
 
