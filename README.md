@@ -19,7 +19,7 @@ public:
     vector<string> programming_languages = {"Python", "C++", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS", "Ruby",
                                              "Rust"};
     vector<stirng> frameworks = {"OpenGL", "React", "Node.js", "Next.js", "Flask", "WordPress"};
-    vector<string> tools = {"Linux", "Git", "Netlify", "VSCode", "Amazon Web Services", "SQL"};
+    vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "SQL"};
     vector<string> currently_learning = {"Nvidia Omniverse", "OpenCV", "Tensorflow", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
@@ -38,7 +38,7 @@ public:
                                         {"instagram", "koops_0"}};
 
     string experience = "Programming Team Member at OTU Robotics and Freelance Computer Science Mentor";
-    string projects = "TekkenAI, Aero Copilot, GPSXE, King's Battle (will be posted later), Talkhub, Ri3D 2024";
+    string projects = "TekkenAI, Aero Copilot, GPSXE, ChessHub, TalkHub, Ri3D 2024";
 };
 ```
 
