@@ -15,12 +15,13 @@ public:
     string location = "Toronto, Ontario";
     string pronouns = "he/him";
 
-    vector<string> interests = {"Programming", "Machine Learning", "Open Source", "Computer Vision", "Robotics", "NLP"};
-    vector<string> programming_languages = {"Python", "C++", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS", "Ruby",
-                                             "Rust"};
-    vector<stirng> frameworks = {"OpenGL", "React", "Node.js", "Next.js", "Flask", "WordPress"};
+    vector<string> interests = {"Programming", "Computer Vision", "Machine Learning", "Open Source", "Robotics", "NLP"};
+    vector<string> programming_languages = {"Python", "C++", "C", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS",
+                                            "Ruby", "Rust"};
+    vector<stirng> frameworks = {"OpenCV", "TensorFlow", "Keras", "OpenGL", "React", "Node.js", "Next.js", "Django", "Flask",
+                                "WordPress", "NumPy", "SciPy", "Pandas", "Seaborn", "Matplotlib", "scikit-learn"};
     vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "SQL"};
-    vector<string> currently_learning = {"Nvidia Omniverse", "OpenCV", "Tensorflow", "MongoDB", "Flutter"};
+    vector<string> currently_learning = {"Nvidia Omniverse", "XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
     string university = "Ontario Tech University";
