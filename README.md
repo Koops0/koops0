@@ -20,7 +20,7 @@ public:
                                             "Ruby", "Rust"};
     vector<stirng> frameworks = {"OpenCV", "TensorFlow", "Keras", "OpenGL", "React", "Node.js", "Next.js", "Django", "Flask",
                                 "WordPress", "NumPy", "SciPy", "Pandas", "Seaborn", "Matplotlib", "scikit-learn"};
-    vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "SQL"};
+    vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud", "SQL"};
     vector<string> currently_learning = {"Nvidia Omniverse", "XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
