@@ -18,9 +18,12 @@ public:
     vector<string> interests = {"Programming", "Computer Vision", "Machine Learning", "Open Source", "Robotics", "NLP"};
     vector<string> programming_languages = {"Python", "C++", "C", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS",
                                             "Ruby", "Rust"};
-    vector<stirng> frameworks = {"OpenCV", "TensorFlow", "Keras", "OpenGL", "React", "Node.js", "Next.js", "Django", "Flask",
-                                "WordPress", "NumPy", "SciPy", "Pandas", "Seaborn", "Matplotlib", "scikit-learn"};
-    vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud", "SQL"};
+    vector<string> libraries = {"OpenCV", "TensorFlow", "Keras", "React", "NumPy", "SciPy", "Pandas", "Seaborn",
+                                "Matplotlib", "scikit-learn"};
+    vector<string> apis = {"OpenGL", "REST"};
+    vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud Platform",
+                           "Node.js", "SQL"};
+    vector<string> frameworks = {"Next.js", "Django", "Flask", "WordPress"};
     vector<string> currently_learning = {"Nvidia Omniverse", "XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
