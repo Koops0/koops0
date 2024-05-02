@@ -41,7 +41,7 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    string experience = "Programming Team Member at OTU Robotics and Freelance Computer Science Mentor";
+    string experience = "Current Freelance Computer Science Mentor and Former Programming Team Member at OTU Robotics";
     string projects = "TekkenAI, Aero Copilot, GPSXE, ChessHub, TalkHub, Ri3D 2024";
 };
 ```
