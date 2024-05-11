@@ -34,7 +34,7 @@ public:
                               "Software Design and Analysis", "Computer Graphics and Visualization"};
 
     vector<string> potential_roles = {"Software Engineer", "Machine Learning Engineer", "Computer Vision Engineer", 
-                                      "Research Assistant", "Augmented Reality Developer", "Data Scientist"};
+                                      "Teaching/Research Assistant", "Augmented Reality Developer", "Data Scientist"};
 
     map<string, string> contact_info = {{"email", "kershan.arulneswaran@gmail.com"},
                                         {"uni_email", "kershan.arulneswaran@ontariotechu.net"},
