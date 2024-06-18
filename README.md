@@ -17,7 +17,7 @@ public:
 
     vector<string> interests = {"Programming", "Computer Vision", "Machine Learning", "Open Source", "Robotics", "NLP"};
     vector<string> programming_languages = {"Python", "C++", "C", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS",
-                                            "Ruby", "Rust"};
+                                            "Ruby", "Rust", "Dart"};
     vector<string> libraries = {"OpenCV", "TensorFlow", "Keras", "React", "NumPy", "SciPy", "Pandas", "Seaborn",
                                 "Matplotlib", "scikit-learn"};
     vector<string> apis = {"OpenGL", "REST"};
