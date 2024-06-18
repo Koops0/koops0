@@ -24,7 +24,7 @@ public:
     vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud Platform",
                            "Node.js", "SQL"};
     vector<string> frameworks = {"Next.js", "Django", "Flask", "WordPress"};
-    vector<string> currently_learning = {"Nvidia Omniverse", "XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
+    vector<string> currently_learning = {"XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
     string university = "Ontario Tech University";
