@@ -19,12 +19,13 @@ public:
     vector<string> programming_languages = {"Python", "C++", "C", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS",
                                             "Ruby", "Rust", "Dart"};
     vector<string> libraries = {"OpenCV", "TensorFlow", "Keras", "React", "NumPy", "SciPy", "Pandas", "Seaborn",
-                                "Matplotlib", "scikit-learn"};
+                                "Matplotlib", "scikit-learn", "WPILib"};
     vector<string> apis = {"OpenGL", "REST"};
     vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud Platform",
-                           "Node.js", "SQL"};
-    vector<string> frameworks = {"Next.js", "Django", "Flask", "WordPress"};
-    vector<string> currently_learning = {"XGBoost", "spaCy", "PyTorch", "PySpark", "MongoDB", "Flutter"};
+                           "Node.js", "SQL", "MongoDB", "Figma"};
+    vector<string> frameworks = {"Next.js", "Express", "Django", "Flask", "WordPress"};
+    vector<string> hardware = {"STM32", "Raspberry Pi", "Arduino"};
+    vector<string> currently_learning = {"XGBoost", "spaCy", "PyTorch", "PySpark"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
 
     string university = "Ontario Tech University";
