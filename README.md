@@ -55,6 +55,6 @@ public:
   <div align=center>
   
   [![GitHub Streak](https://streak-stats.demolab.com?user=Koops0&theme=noctis-minimus&border_radius=8&date_format=%5BY.%5Dn.j&fire=EB0000)](https://git.io/streak-stats) 
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Koops0&theme=dark&layout=compact&size_weight=0.5&count_weight=0.5)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Koops0&theme=dark&layout=compact&size_weight=0.7&count_weight=0.3)
 </div>
 </div>
