@@ -42,7 +42,7 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    string experience = "Current Freelance Computer Science Mentor, Web Dev Executive at OTU HackStation and Programming Team Member at OTU Robotics";
+    string experience = "Current Computer Science Mentor, Web Dev Executive at OTU HackStation and Programming Team Member at OTU Robotics";
     string projects = "TekkenAI, Aero Copilot, GPSXE, ChessHub, TalkHub, Ri3D 2024";
 };
 ```
