@@ -44,7 +44,7 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    string experience ={"CS Mentor", "Web Development Executive at Hack Station", "Programming Team Member @ OTU Robotics"};
+    string experience ={"CS Mentor", "Web Development Executive @ Hack Station", "Programming Team Member @ OTU Robotics"};
     string projects = "TekkenAI, TrashTalk, Aero Copilot, GPSXE, ChessHub, TalkHub, EDANBA, Ri3D 2024";
 };
 ```
