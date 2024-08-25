@@ -17,13 +17,13 @@ public:
 
     vector<string> interests = {"Programming", "Computer Vision", "Machine Learning", "Open Source", "Robotics", "NLP"};
     vector<string> programming_languages = {"Python", "C++", "C", "JavaScript", "Go", "TypeScript" "Java", "HTML", "CSS",
-                                            "Ruby", "Rust", "Dart"};
+                                            "Rust", "SQL"};
     vector<string> libraries = {"OpenCV", "TensorFlow", "Keras", "React", "NumPy", "SciPy", "Pandas", "Seaborn",
                                 "Matplotlib", "scikit-learn", "WPILib"};
     vector<string> apis = {"OpenGL", "REST"};
     vector<string> tools = {"Linux", "Git", "Netlify", "Vercel", "VSCode", "Amazon Web Services", "Google Cloud Platform",
-                           "Node.js", "SQL", "MongoDB", "Figma"};
-    vector<string> frameworks = {"Next.js", "Express", "Django", "Flask", "WordPress"};
+                           "Node.js", "MongoDB", "JIRA", "Roboflow", "Figma"};
+    vector<string> frameworks = {"Next.js", "Express", "Django", "Flask", "Apache Spark", "WordPress"};
     vector<string> hardware = {"STM32", "Raspberry Pi", "Arduino"};
     vector<string> currently_learning = {"XGBoost", "spaCy", "PyTorch", "PySpark"};
     vector<string> other_verbal_languages = {"Tamil", "French"};
@@ -31,8 +31,10 @@ public:
     string university = "Ontario Tech University";
     string degree = "B.S. in Computer Science, Minor in Mathematics";
     string graduation = "April 2026";
-    vector<string> courses = {"Data Structures and Algorithms", "Scientific Data Analysis", "Software Systems Dev. and Integ.",
-                              "Software Design and Analysis", "Computer Graphics and Visualization"};
+    vector<string> courses = {"Data Structures", "Scientific Data Analysis", "Software Systems Dev. and Integ.",
+                              "Software Design and Analysis", "Computer Graphics and Visualization",
+                              "Algorithm Design and Analysis", "Databases", "Computational Photography",
+                              "Machine Learning 1"};
 
     vector<string> potential_roles = {"Software Engineer", "Machine Learning Engineer", "Computer Vision Engineer", 
                                       "Teaching/Research Assistant", "Augmented Reality Developer", "Data Scientist"};
@@ -42,8 +44,8 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    string experience = "Current Computer Science Mentor, Web Dev Executive at OTU HackStation and Programming Team Member at OTU Robotics";
-    string projects = "TekkenAI, Aero Copilot, GPSXE, ChessHub, TalkHub, Ri3D 2024";
+    string experience ={"CS Mentor", "Web Development Executive at Hack Station", "Programming Team Member @ OTU Robotics"};
+    string projects = "TekkenAI, TrashTalk, Aero Copilot, GPSXE, ChessHub, TalkHub, EDANBA, Ri3D 2024";
 };
 ```
 
