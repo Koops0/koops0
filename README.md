@@ -45,7 +45,7 @@ public:
                                         {"instagram", "koops_0"}};
 
     vector<string> experience = {"CS Mentor", "Web Development Executive @ Hack Station",
-                                  "Programming Team Member @ Ontario Tech Robotics"};
+                                  "Programming Team Lead @ Ontario Tech Robotics"};
     string projects = "TekkenAI, TrashTalk, Aero Copilot, GPSXE, ChessHub, TalkHub, EDANBA, Ri3D 2024";
 };
 ```
