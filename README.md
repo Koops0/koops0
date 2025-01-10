@@ -44,7 +44,7 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    vector<string> experience = {"CS Mentor", "Web Development Executive @ Hack Station",
+    vector<string> experience = {"Teaching Assistant", "Web Development Executive @ Hack Station",
                                   "Programming Team Lead @ Ontario Tech Robotics"};
     string projects = "TekkenAI, TrashTalk, Aero Copilot, GPSXE, ChessHub, TalkHub, EDANBA, Ri3D 2024";
 };
@@ -57,7 +57,6 @@ public:
 
   <div align=center>
   
-  [![GitHub Streak](https://streak-stats.demolab.com?user=Koops0&theme=noctis-minimus&border_radius=8&date_format=%5BY.%5Dn.j&fire=EB0000)](https://git.io/streak-stats) 
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Koops0&theme=dark&layout=compact&size_weight=0.7&count_weight=0.3)
 </div>
 </div>
