@@ -30,7 +30,7 @@ public:
 
     string university = "Ontario Tech University";
     string degree = "B.S. in Computer Science, Minor in Mathematics";
-    string graduation = "April 2026";
+    string graduation = "April 2027";
     vector<string> courses = {"Data Structures", "Scientific Data Analysis", "Software Systems Dev. and Integ.",
                               "Software Design and Analysis", "Computer Graphics and Visualization",
                               "Algorithm Design and Analysis", "Databases", "Computational Photography",
@@ -44,9 +44,9 @@ public:
                                         {"linkedin", "https://www.linkedin.com/in/kersharul/"}, {"discord", "koops_0"},
                                         {"instagram", "koops_0"}};
 
-    vector<string> experience = {"Teaching Assistant", "Web Development Executive @ Hack Station",
+    vector<string> experience = {"Software Engineer @ MDA Space", ""STEM Project Developer Intern", "Teaching Assistant",
                                   "Programming Team Lead @ Ontario Tech Robotics"};
-    string projects = "TekkenAI, TrashTalk, Aero Copilot, GPSXE, ChessHub, TalkHub, EDANBA, Ri3D 2024";
+    string projects = "tbd...";
 };
 ```
 
